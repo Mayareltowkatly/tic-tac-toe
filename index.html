@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="style.css">
+   <title> TicTacToe Game </title>
+</head>
+ <body>
+  <main>
+    <div class = "mode-selection">
+      <button class = "mode-btn"  id="singleBtn"> Single Player</button>
+      <button class = "mode-btn" id="twoBtn"> Two Player</button>
+    </div>
+    <header id="header">
+      <div class="player player-active" id="xPlayer"> X </div>
+       <h3 id="titleHeader">Choose</h3>
+      <div class="player" id="oPlayer"> O </div>
+    </header>
+      <div id="board">
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+        <div class="cell" data-index="9"></div>        
+      </div>
+      <button id="restartBtn">Reset</button>
+    </main>
+    <script src="script.js"></script>
+  </body> 
+</html>
