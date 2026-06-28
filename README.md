@@ -43,6 +43,7 @@ tic-tac-toe/
 ├── style.css
 ├── script.js
 └── README.md
+```
 
 ## Game Logic
 The game is powered by JavaScript and includes:
